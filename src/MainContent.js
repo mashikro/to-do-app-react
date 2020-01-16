@@ -1,14 +1,14 @@
 import React from "react";
 
+import TodoItem from "./TodoItem";
+
 function MainContent() {
+    const fullName = "Aaron Iba";
     return (
         <div>
-            <input type="checkbox" />
-            <p>Do StUfF</p>
-            <input type="checkbox" />
-            <p>Do StUfF</p>
-            <input type="checkbox" />
-            <p>Do StUfF</p>
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
         </div>
     );
 }
