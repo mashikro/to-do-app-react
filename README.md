@@ -1,3 +1,7 @@
+## About the Developer 🤖
+
+to-do was authored by [Masha Ikromova](https://www.linkedin.com/in/mashikro/). Masha studied Neuroscience and Software Engineering at Columbia University and Hackbright Academy respectively. This is her first React project. Learn more about the developer on [Linkedin](https://www.linkedin.com/in/mashikro/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
