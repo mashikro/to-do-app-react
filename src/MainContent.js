@@ -14,14 +14,16 @@ import todoData from "./todoData";
 //     return <div className="todo-list"> {todoList}</div>;
 // }
 
+//Changed the <MainContent /> component into a stateful class component
+// and load the imported `todosData` into state.
 class MainContent extends React.Component {
     constructor() {
         super();
-        this.state = {};
+        this.state = { todos: todoData };
     }
 
     render() {
-        const todoList = todoData.map(todo => {
+        const todoList = this.state.todos.map(todo => {
             return <TodoItem key={todo.id} todo={todo} />;
         });
 
