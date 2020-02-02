@@ -31,7 +31,10 @@ class MainContent extends React.Component {
         this.setState(prevState => {
             const updatedTodos = prevState.todos.map(todo => {
                 if (todo.id === id) {
-                    todo.completed = !todo.completed;
+                    return {
+                        ...todo,
+                        completed: !todo.completed
+                    };
                 }
                 return todo;
             });
